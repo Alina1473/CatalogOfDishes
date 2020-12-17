@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="#C7F6FB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textColor="#885C5C"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:hint="name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/county"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:textSize="19sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#534A4A"
+                android:hint="county"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/components"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5sp"
+                android:gravity="center_vertical|start"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                android:hint="components"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
